@@ -6,7 +6,8 @@
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "server": "node server.js",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy-gh": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
